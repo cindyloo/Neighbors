@@ -11,10 +11,10 @@
 		5D23C47A216F941600A5A32C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D23C479216F941600A5A32C /* art.scnassets */; };
 		5D23C47C216F941600A5A32C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D23C47B216F941600A5A32C /* ViewController.swift */; };
 		5D23C47F216F941600A5A32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D23C47D216F941600A5A32C /* Main.storyboard */; };
-		5D23C481216F941800A5A32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D23C480216F941800A5A32C /* Assets.xcassets */; };
 		5D23C484216F941800A5A32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D23C482216F941800A5A32C /* LaunchScreen.storyboard */; };
 		5D23C48F216F941800A5A32C /* NeighborsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D23C48E216F941800A5A32C /* NeighborsTests.swift */; };
 		5D23C49A216F941900A5A32C /* NeighborsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D23C499216F941900A5A32C /* NeighborsUITests.swift */; };
+		5D23C4A821703D2100A5A32C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D23C4A721703D2100A5A32C /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		5D23C479216F941600A5A32C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		5D23C47B216F941600A5A32C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D23C47E216F941600A5A32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D23C480216F941800A5A32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D23C483216F941800A5A32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D23C485216F941800A5A32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D23C48A216F941800A5A32C /* NeighborsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeighborsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		5D23C495216F941800A5A32C /* NeighborsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeighborsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D23C499216F941900A5A32C /* NeighborsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborsUITests.swift; sourceTree = "<group>"; };
 		5D23C49B216F941900A5A32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D23C4A721703D2100A5A32C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +99,11 @@
 		5D23C476216F941600A5A32C /* Neighbors */ = {
 			isa = PBXGroup;
 			children = (
+				5D23C4A721703D2100A5A32C /* Media.xcassets */,
 				5D23C477216F941600A5A32C /* AppDelegate.swift */,
 				5D23C479216F941600A5A32C /* art.scnassets */,
 				5D23C47B216F941600A5A32C /* ViewController.swift */,
 				5D23C47D216F941600A5A32C /* Main.storyboard */,
-				5D23C480216F941800A5A32C /* Assets.xcassets */,
 				5D23C482216F941800A5A32C /* LaunchScreen.storyboard */,
 				5D23C485216F941800A5A32C /* Info.plist */,
 			);
@@ -234,7 +234,7 @@
 			files = (
 				5D23C47A216F941600A5A32C /* art.scnassets in Resources */,
 				5D23C484216F941800A5A32C /* LaunchScreen.storyboard in Resources */,
-				5D23C481216F941800A5A32C /* Assets.xcassets in Resources */,
+				5D23C4A821703D2100A5A32C /* Media.xcassets in Resources */,
 				5D23C47F216F941600A5A32C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
